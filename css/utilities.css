@@ -56,6 +56,10 @@ a.icon-link:hover {
 
 
 /* Button Styling */
+.button-container {
+  display: flex;
+  /* justify-content: space-between; Adjust as needed for spacing between buttons */
+}
 
 a.button {
   padding: 8px 16px;
@@ -67,6 +71,8 @@ a.button {
   display: flex;
   gap: 5px;
   align-items: center;
+  margin: 2px; /* Reset margin to 0 */
+
 }
 
 a.button:hover {
