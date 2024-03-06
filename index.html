@@ -9,7 +9,9 @@
 		<link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
@@ -17,8 +19,8 @@
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">Portfolio</span>
-        <a class="button" href="mailto:lintzuh@kean.edu">
-          <span class="button-text">Contact Me</span>
+        <a id = "contact-me" class="button" href="mailto:lintzuh@kean.edu">
+          <span id = "contact-me-btn-text"class="button-text">Contact Me</span>
         </a>
       </a>
     </div>
@@ -33,8 +35,10 @@
         </div>
         <div id="portfolio-header-text-container">
             <div class="header-text">
-              <span class="main-title">Hey, I'm Tzu-Han Lin</span>
-              <div class="body-text">I have a keen interest in software development, deep learning, and all things tech-related.</div>
+              <span class="main-title">Hey, I'm</span>
+              <span class="main-title">Tzu-Han Lin</span>
+
+              <div id="main-title-body"class="body-text">I have a keen interest in software development, deep learning, and all things tech-related.</div>
             </div>
 
             <a class="button" id="my-work-link">
@@ -44,14 +48,18 @@
             
             
             <div class="button-container">
-              <a class="button" href="./assets/pdf/2023CV.pdf" target="_blank">
-                <span class="button-text">CV</span> 
+              <a class="header-btn" href="./assets/pdf/2023CV.pdf" target="_blank">
+                <span id ='btn-cv-text'class="button-text">CV</span> 
               </a>
-              <a class="button" target="_blank" href="https://github.com/tzuhan2424">
-                <span class="button-text">Github</span> 
+              <a class="header-btn" target="_blank" href="https://github.com/tzuhan2424">
+                <!-- <span class="button-text">Github</span>  -->
+                <image class="header-icon" src="./assets/icons/github-t.svg"/>
+
               </a>
-              <a class="button" target="_blank" href="https://linkedin.com/in/tzu-han-lin-298622240">
-                <span class="button-text">LinkedIn</span> 
+              <a class="header-btn" target="_blank" href="https://linkedin.com/in/tzu-han-lin-298622240">
+                <!-- <span class="button-text">LinkedIn</span>  -->
+                <image class="header-icon" src="./assets/icons/linkedin-t.svg"/>
+
               </a>
             </div>
         </div>

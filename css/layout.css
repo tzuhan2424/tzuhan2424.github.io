@@ -10,9 +10,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #e7f1e3e8; */
+  background-color: #293b30;
+
+
 }
 
 
@@ -21,7 +25,9 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  /* margin: 150px 70px; */
+  /* padding: 225px 425px; */
+
   display: flex;
   flex-direction: column;
   gap: 96px;
@@ -44,6 +50,7 @@ body {
   flex-direction: column;
   gap: 10px;
   flex-basis: 50%;
+  /* padding: 40px; */
   
 
 }
@@ -61,6 +68,9 @@ body {
   flex-direction: column;
   gap: 34px;
   flex-basis: 50%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -197,21 +207,21 @@ body {
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   #main-content {
-    margin: 225px 275px;
+    margin: 150px 275px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
   #main-content {
-    margin: 225px 175px;
+    margin: 150px 175px;
   }
 }
 
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
-    margin: 225px 75px;
+    margin: 150px 75px;
   }
 }
 
