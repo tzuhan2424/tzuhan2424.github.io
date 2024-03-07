@@ -1,12 +1,13 @@
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nav-title {
-  font-weight: 700;
-  font-size: 50px;
+  font-size: 70px;
   color: #fdf5c4;
+  font-family: "Fasthand", cursive;
+  font-weight: 550;
+  font-style: normal;
 }
 
 .button-text {
@@ -21,6 +22,7 @@ body {
   color: #293b30;
 
 }
+
 .image-caption {
   font-size: 14px;
   font-weight: 500;
@@ -36,6 +38,8 @@ body {
 #main-title-body{
   font-size: 20px;
   font-weight: 530;
+  color: #fdf5c4;
+
 }
 .header-text{
   display: flex;
@@ -45,14 +49,53 @@ body {
 
 }
 .subheader-text {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 700;
+  color: #293b30;
+
 }
 
 .body-text {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
+
 }
+
+.about-section-content .skill-section-content .body-text{
+  font-size: 25px;
+  color: rgb(42, 60, 49);
+  font-weight: 500;
+
+}
+.body-text{
+  font-size: 25px;
+  color: rgb(42, 60, 49);
+  font-weight: 500;
+
+}
+
+
+.body-text-ref {
+  position: relative;
+  text-decoration-color: rgb(218, 111, 17);
+  color: rgb(218, 111, 17);
+  transition: background-color 0.4s ease; /* Smooth transition for background color */
+
+}
+
+.body-text-ref:visited{
+  text-decoration-color: rgb(218, 111, 17);
+}
+.body-text-ref:hover {
+  font-weight: 700;
+  color:#fdf5c4;
+  text-decoration-color: #fdf5c4;
+
+  background-color: rgba(42, 60, 49, 0.858); /* Slight change in background color */
+}
+
+
+
 
 .project-card-text {
   overflow: hidden;

@@ -12,13 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-		<script defer src="./js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script defer src="./js/script.js"></script>
 	</head>
 	<body>
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Portfolio</span>
+        <span class="nav-title">Han</span>
         <a id = "contact-me" class="button" href="mailto:lintzuh@kean.edu">
           <span id = "contact-me-btn-text"class="button-text">Contact Me</span>
         </a>
@@ -49,7 +51,9 @@
             
             <div class="button-container">
               <a class="header-btn" href="./assets/pdf/2023CV.pdf" target="_blank">
-                <span id ='btn-cv-text'class="button-text">CV</span> 
+                <!-- <span id ='btn-cv-text'class="button-text">CV</span>  -->
+                <image class="header-icon" src="./assets/icons/resume.svg"/>
+
               </a>
               <a class="header-btn" target="_blank" href="https://github.com/tzuhan2424">
                 <!-- <span class="button-text">Github</span>  -->
@@ -69,38 +73,29 @@
       <div id="about-section">
         <span class="subheader-text">About Me</span>
         <div class="about-section-content">
-          <div class="body-text">I'm currently a master's student at Kean University in New Jersey, with an expected graduation date in May 2024. My areas of expertise include database design, website backend development, and data visualization. Additionally, I have a strong interest in deep learning and computer vision, 
-            and my research is centered on weakly supervised learning for tumor ultrasound image segmentation.
+          <div class="body-text">
+            I'm currently a computer science master student at 
+            <a class="body-text-ref" href="https://www.kean.edu/" target="_blank">Kean University</a> 
+            in New Jersey, with an expected graduation date in May 2024. 
           </div>
-          <div class="body-text">I recently started working as a part-time graduate assistant at Strategic Analytics & Data Illumination. My primary responsibilities involve developing an end-to-end web application to streamline the process 
-            and enhance the efficiency of the department in submitting the IPEDS (Integrated Postsecondary Education Data System) report.
+          <div class="body-text"> 
+            My areas of expertise include full-stack development, and deep learning.
+          </div>
+          <div class="body-text">
+            Currently, I work as part-time full-stack developer at 
+            <a class="body-text-ref" href="https://www.kean.edu/offices/strategic-analytics-data-illumination-sadi/institutional-research" target="_blank">the Office of Institutional Research</a>, Kean University.
+          </div>
+          <div class="body-text">
+            I developed a full-stack system with ASP.NET for 
+            <a class="body-text-ref" href="https://nces.ed.gov/ipeds/" target="_blank">IPEDS</a> 
+            reporting, incorporating annual data storage and inter-year validation, reducing inter-departmental communication costs.
           </div>
         </div>
       </div>
-
-
-      <!-- skill section -->
-      <div id="skill-section">
-        <span class="subheader-text">Skills</span>
-        <div class="skill-section-content">
-          <div class="body-text">Languages: Python, Java, C#, JavaScript, HTML/CSS, PHP</div>
-          <div class="body-text">Databases: MySQL, MS SQL</div>
-          <div class="body-text">Web development framework: ASP.NET, bootstrap, Flask, Git, Docker</div>
-          <div class="body-text">Cloud: Azure</div>
-
-        </div>
-        <div class="skill-section-content">
-          <div class="body-text">Deep Learning framework: Pytorch</div>
-          <div class="body-text">Packages: numpy, OpenCV, Pillow, Pandas</div>
-        </div>
-      </div>
-
-
       <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
+      <!-- <div id="my-work-section">
         <span class="subheader-text">My Projects</span>
         <div class="projects-container">
-       
           <div class="project-card">
             <img src="./assets/images/bank.jpeg" class="project-image">
             <div class="project-card-text-container">
@@ -117,7 +112,28 @@
           
           
         </div>
+      </div> -->
+
+      <!-- skill section -->
+      <div id="skill-section">
+        <span class="subheader-text">Skills</span>
+        
+        <div class="skill-section-content">
+          <div class="body-text">Languages: Python, Java, C#, JavaScript, HTML/CSS, PHP</div>
+          <div class="body-text">Databases: MySQL, MS SQL</div>
+          <div class="body-text">Web development framework: ASP.NET, Django, Flask, React</div>
+          <div class="body-text">Cloud: Azure</div>
+          <div class="body-text">Others: Git, Docker</div>
+
+
+        </div>
+        <div class="skill-section-content">
+          <div class="body-text">Deep Learning framework: Pytorch</div>
+        </div>
       </div>
+
+
+
     </div>
 
     <!-- FOOTER -->

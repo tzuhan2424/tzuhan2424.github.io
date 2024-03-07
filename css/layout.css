@@ -30,7 +30,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 80px;
 }
 
 
@@ -82,12 +82,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: #fef7e4;
+  padding: 2em 4em;
+  border-radius: 40px; /* This line adds rounded corners. Adjust the value as needed. */
+  font-family: "PT Sans Narrow", sans-serif;
+
+
 }
 
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 25px;
 }
 
 
@@ -96,12 +102,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: #fef7e4;
+  padding: 2em 4em;
+  border-radius: 40px; /* This line adds rounded corners. Adjust the value as needed. */
+  font-family: "PT Sans Narrow", sans-serif;
+
 }
 
 .skill-section-content {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 
 
