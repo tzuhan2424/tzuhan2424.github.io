@@ -9,16 +9,22 @@
 		<link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/carousel.js"></script>
 
-		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Portfolio</span>
-        <a class="button" href="mailto:lintzuh@kean.edu">
-          <span class="button-text">Contact Me</span>
+        <span class="nav-title">Han</span>
+        <a id = "contact-me" class="button" href="mailto:lintzuh@kean.edu">
+          <span id = "contact-me-btn-text"class="button-text">Contact Me</span>
         </a>
       </a>
     </div>
@@ -33,8 +39,10 @@
         </div>
         <div id="portfolio-header-text-container">
             <div class="header-text">
-              <span class="main-title">Hey, I'm Tzu-Han Lin</span>
-              <div class="body-text">I have a keen interest in software development, deep learning, and all things tech-related.</div>
+              <span class="main-title">Hey, I'm</span>
+              <span class="main-title">Tzu-Han Lin</span>
+
+              <div id="main-title-body"class="body-text">I have a keen interest in software development, deep learning, and all things tech-related.</div>
             </div>
 
             <a class="button" id="my-work-link">
@@ -44,14 +52,20 @@
             
             
             <div class="button-container">
-              <a class="button" href="./assets/pdf/2023CV.pdf" target="_blank">
-                <span class="button-text">CV</span> 
+              <a class="header-btn" href="./assets/pdf/2023CV.pdf" target="_blank">
+                <!-- <span id ='btn-cv-text'class="button-text">CV</span>  -->
+                <image class="header-icon" src="./assets/icons/resume.svg"/>
+
               </a>
-              <a class="button" target="_blank" href="https://github.com/tzuhan2424">
-                <span class="button-text">Github</span> 
+              <a class="header-btn" target="_blank" href="https://github.com/tzuhan2424">
+                <!-- <span class="button-text">Github</span>  -->
+                <image class="header-icon" src="./assets/icons/github-t.svg"/>
+
               </a>
-              <a class="button" target="_blank" href="https://linkedin.com/in/tzu-han-lin-298622240">
-                <span class="button-text">LinkedIn</span> 
+              <a class="header-btn" target="_blank" href="https://linkedin.com/in/tzu-han-lin-298622240">
+                <!-- <span class="button-text">LinkedIn</span>  -->
+                <image class="header-icon" src="./assets/icons/linkedin-t.svg"/>
+
               </a>
             </div>
         </div>
@@ -61,55 +75,75 @@
       <div id="about-section">
         <span class="subheader-text">About Me</span>
         <div class="about-section-content">
-          <div class="body-text">I'm currently a master's student at Kean University in New Jersey, with an expected graduation date in May 2024. My areas of expertise include database design, website backend development, and data visualization. Additionally, I have a strong interest in deep learning and computer vision, 
-            and my research is centered on weakly supervised learning for tumor ultrasound image segmentation.
+          <div class="body-text">
+            I'm currently a computer science master student at 
+            <a class="body-text-ref" href="https://www.kean.edu/" target="_blank">Kean University</a> 
+            in New Jersey, with an expected graduation date in May 2024. 
           </div>
-          <div class="body-text">I recently started working as a part-time graduate assistant at Strategic Analytics & Data Illumination. My primary responsibilities involve developing an end-to-end web application to streamline the process 
-            and enhance the efficiency of the department in submitting the IPEDS (Integrated Postsecondary Education Data System) report.
+          <div class="body-text"> 
+            My areas of expertise include full-stack development, and deep learning.
+          </div>
+          <div class="body-text">
+            Currently, I work as part-time full-stack developer at 
+            <a class="body-text-ref" href="https://www.kean.edu/offices/strategic-analytics-data-illumination-sadi/institutional-research" target="_blank">the Office of Institutional Research</a>, Kean University.
+          </div>
+          <div class="body-text">
+            I developed a full-stack system with ASP.NET for 
+            <a class="body-text-ref" href="https://nces.ed.gov/ipeds/" target="_blank">IPEDS</a> 
+            reporting, incorporating annual data storage and inter-year validation, reducing inter-departmental communication costs.
           </div>
         </div>
+      </div>
+
+      <div class="carousel" id = "my-project-carousel">
+        <span class="subheader-text">Research</span>
+
+        <div class="carousel-images">
+          <div class="carousel-image-container">
+            <span class="body-text">Weakly Supervised Breast Ultrasound Image
+              Segmentation Based on Image Selection</span>
+            <img src="./assets/images/DL/DLframework.png" alt="Photo 1" class="carousel-image">
+            <!-- <div class="image-info">
+              Information about the image...
+            </div> -->
+         </div>
+         <div class="carousel-image-container">
+          <span class="body-text">Mars terrain type segmentation with novel edge
+            detection</span>
+          <img src="./assets/images/DL/mars.png" alt="Photo 1" class="carousel-image">
+          <div class="image-info">
+            <!-- The content inside this div will appear on hover -->
+            Read more...
+          </div>
+       </div>
+          <!-- <img src="./assets/images/code.jpeg" alt="Photo 2" class="carousel-image"> -->
+          <!-- <img src="./assets/images/sketchbook.jpeg" alt="Photo 3" class="carousel-image"> -->
+        </div>
+        <button class="carousel-button left">&#10094;</button>
+        <button class="carousel-button right">&#10095;</button>
       </div>
 
 
       <!-- skill section -->
       <div id="skill-section">
         <span class="subheader-text">Skills</span>
+        
         <div class="skill-section-content">
           <div class="body-text">Languages: Python, Java, C#, JavaScript, HTML/CSS, PHP</div>
           <div class="body-text">Databases: MySQL, MS SQL</div>
-          <div class="body-text">Web development framework: ASP.NET, bootstrap, Flask, Git, Docker</div>
+          <div class="body-text">Web development framework: ASP.NET, Django, Flask, React</div>
           <div class="body-text">Cloud: Azure</div>
+          <div class="body-text">Others: Git, Docker</div>
+
 
         </div>
         <div class="skill-section-content">
           <div class="body-text">Deep Learning framework: Pytorch</div>
-          <div class="body-text">Packages: numpy, OpenCV, Pillow, Pandas</div>
         </div>
       </div>
 
 
-      <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
-        <span class="subheader-text">My Projects</span>
-        <div class="projects-container">
-       
-          <div class="project-card">
-            <img src="./assets/images/bank.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Online Banking System</div>
-              <div class="body-text project-card-text">
-                A web application eanables user login and seamless transaction processing. 
-              </div>
-            </div>
-            <a class="button" href="">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          
-          
-        </div>
-      </div>
+
     </div>
 
     <!-- FOOTER -->

@@ -10,9 +10,13 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #e7f1e3e8; */
+  background-color: #293b30;
+
+
 }
 
 
@@ -21,10 +25,12 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  /* margin: 150px 70px; */
+  /* padding: 225px 425px; */
+
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 80px;
 }
 
 
@@ -44,6 +50,7 @@ body {
   flex-direction: column;
   gap: 10px;
   flex-basis: 50%;
+  /* padding: 40px; */
   
 
 }
@@ -61,6 +68,9 @@ body {
   flex-direction: column;
   gap: 34px;
   flex-basis: 50%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -72,12 +82,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: #fef7e4;
+  padding: 2em 4em;
+  border-radius: 40px; /* This line adds rounded corners. Adjust the value as needed. */
+  font-family: "PT Sans Narrow", sans-serif;
+
+
 }
 
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 25px;
 }
 
 
@@ -86,12 +102,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: #fef7e4;
+  padding: 2em 4em;
+  border-radius: 40px; /* This line adds rounded corners. Adjust the value as needed. */
+  font-family: "PT Sans Narrow", sans-serif;
+
 }
 
 .skill-section-content {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 
 
@@ -197,21 +218,21 @@ body {
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   #main-content {
-    margin: 225px 275px;
+    margin: 150px 275px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
   #main-content {
-    margin: 225px 175px;
+    margin: 150px 175px;
   }
 }
 
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
-    margin: 225px 75px;
+    margin: 150px 75px;
   }
 }
 
@@ -243,3 +264,87 @@ body {
 
 
 
+
+
+.carousel {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #fef7e4;
+  padding: 2em 4em;
+  border-radius: 40px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: auto; /* Centers the carousel within its parent */
+  width: 100%; /* Ensures the carousel grows responsively to the width of its container */
+  /* height: 40%; */
+}
+.carousel-image-container {
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  /* Make sure to set the width and height or they will be auto */
+}
+.carousel-image-container.active {
+  display: flex; /* Change to block or inline-block depending on your layout */
+  /* Other styles to make the active item display correctly */
+}
+
+.carousel-images {
+  display: flex; /* Flexbox layout for the image container */
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden; /* Hide any overflowing parts of the images */
+}
+
+.carousel-images img {
+  width: 100%; /* Maximum width of the image is the width of its container */
+  height: 100%; /* Maximum height of the image is the height of its container */
+  display: block; /* Show images as block elements */
+  object-fit: contain; /* Ensures the image is scaled to be as large as possible but contained within the element's box */
+  border-radius:10px;
+  /* margin:10px */
+}
+
+
+.image-info {
+  position: absolute;
+  bottom: 0; /* Start from the bottom of the .carousel-image-container */
+  left: 0;
+  width: 100%; /* Take full width of the parent container */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  transform: translateY(100%); /* Hide the .image-info by pushing it down */
+  transition: transform 0.3s ease-in-out; /* Animation for smooth effect */
+  padding: 5em;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.carousel-image-container:hover .image-info {
+  transform: translateY(0); /* Bring the .image-info up on hover */
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  z-index: 0;
+}
+
+.carousel-button.left {
+  left: 0;
+}
+
+.carousel-button.right {
+  right: 0;
+}
