@@ -15,6 +15,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Fasthand&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     
     <script defer src="./js/script.js"></script>
+    <script defer src="./js/carousel.js"></script>
+
 	</head>
 	<body>
     <!-- NAVBAR -->
@@ -92,27 +94,35 @@
           </div>
         </div>
       </div>
-      <!-- PROJECTS / MY WORK SECTION -->
-      <!-- <div id="my-work-section">
-        <span class="subheader-text">My Projects</span>
-        <div class="projects-container">
-          <div class="project-card">
-            <img src="./assets/images/bank.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Online Banking System</div>
-              <div class="body-text project-card-text">
-                A web application eanables user login and seamless transaction processing. 
-              </div>
-            </div>
-            <a class="button" href="">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+
+      <div class="carousel" id = "my-project-carousel">
+        <span class="subheader-text">Research</span>
+
+        <div class="carousel-images">
+          <div class="carousel-image-container">
+            <span class="body-text">Weakly Supervised Breast Ultrasound Image
+              Segmentation Based on Image Selection</span>
+            <img src="./assets/images/DL/DLframework.png" alt="Photo 1" class="carousel-image">
+            <!-- <div class="image-info">
+              Information about the image...
+            </div> -->
+         </div>
+         <div class="carousel-image-container">
+          <span class="body-text">Mars terrain type segmentation with novel edge
+            detection</span>
+          <img src="./assets/images/DL/mars.png" alt="Photo 1" class="carousel-image">
+          <div class="image-info">
+            <!-- The content inside this div will appear on hover -->
+            Read more...
           </div>
-          
-          
+       </div>
+          <!-- <img src="./assets/images/code.jpeg" alt="Photo 2" class="carousel-image"> -->
+          <!-- <img src="./assets/images/sketchbook.jpeg" alt="Photo 3" class="carousel-image"> -->
         </div>
-      </div> -->
+        <button class="carousel-button left">&#10094;</button>
+        <button class="carousel-button right">&#10095;</button>
+      </div>
+
 
       <!-- skill section -->
       <div id="skill-section">
