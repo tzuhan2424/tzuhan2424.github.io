@@ -67,12 +67,6 @@ jobs:
           ruby-version: "3.2.2"
           bundler-cache: true
 
-      - name: Add x86_64-linux platform to Gemfile.lock
-        run: bundle lock --add-platform x86_64-linux
-      - name: Install dependencies
-        run: bundle install --jobs 4
-      - name: Build and test
-        run: bundle exec jekyll build
 
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
