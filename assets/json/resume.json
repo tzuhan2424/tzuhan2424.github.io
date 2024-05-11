@@ -4,15 +4,10 @@
     "title": "Software Engineer",
     "image": "",
     "email": "lintzuh@kean.edu",
-    "phone": "(856)789-0062",
+    "phone": "",
     "url": "https://tzuhan2424.github.io/",
     "summary": "A software engineer loves thinking and solving problems. Experienced in full-stack development, and machine learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
     }
   },
   "work": [
@@ -121,13 +116,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
+    
   ]
 }

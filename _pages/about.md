@@ -14,7 +14,7 @@ profile:
 
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
   I recently graduated with a Master's degree in Computer Science from [Kean University](https://www.kean.edu/) in New Jersey. My expertise lies in full-stack development and deep learning. As a part-time full-stack developer, I developed a comprehensive ASP.NET system for IPEDS reporting, which included features like annual data storage and inter-year validation, greatly reducing inter-departmental communication costs.
