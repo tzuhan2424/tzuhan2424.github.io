@@ -77,7 +77,7 @@ I adopted an agile SDLC approach, dividing the project into several sprints and 
     </div>
 </div>
 
-I documented local and production server setting and design document for future usage. And Also I designed test case for future tester could systematically checking the functionality and security.
+I documented local and production server setting and design document for future usage. Also, I designed test case for future tester could systematically checking the functionality and security.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/keanIPEDS/documentation.png" title="kean data entry" class="img-fluid rounded z-depth-1" %}
