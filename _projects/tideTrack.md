@@ -129,7 +129,7 @@ were able to create during the allotted time.
             <li>React (JavaScript)</li>
         </ul>
         <ul>
-            <li>Arcgis API</li>
+            <li><a href="https://www.arcgis.com/index.html">Arcgis API</a></li>
         </ul>
     </li>
     <li>Back-end:
@@ -141,7 +141,6 @@ were able to create during the allotted time.
     <li>Software tools used:
         <ul>
             <li>Github</li>
-            <li>Visual Studio Code</li>
             <li>MySQL Workbench</li>
             <li>Azure Cloud</li>
         </ul>
