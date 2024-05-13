@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Online banking system
-description: A banking system allows user perform transaction online
+description: A mimic banking system allows user perform transaction online
 img: assets/img/onlineBanking/mainFunction.png
 importance: 3
 category: web app
@@ -9,19 +9,18 @@ related_publications: false
 ---
 
 demo: (https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/)  
-you could see test password on the site.  
 [github link](https://github.com/tzuhan2424/CPS3740_Project)
 
 ## Introduction
-The mimic system offers user-friendly web interface for managing database transactions. Key features include:
+The mimic system offers web interface for managing database transactions. Key features include:
 <ui> 
     <li>Login: only authorized users can access their accounts.
     </li>
-    <li>Transactions: Perform financial transactions such as deposite and withdraw directly through the website.
+    <li>Transactions: Perform transactions such as deposite and withdraw from the mimic account.
     </li>
-    <li>Transaction Updates: Keep your transactions up-to-date with the ability to modify existing entries.
+    <li>Transaction Updates: modify existing entries.
     </li>
-    <li>Transaction Search: Easily search and review past transactions to keep track of your financial activity.
+    <li>Transaction Search: Easily search and review past transactions.
     </li>
 </ui>
 
@@ -38,7 +37,7 @@ This project marked my first venture into web application development, employing
 ## System View
 ### 1. Main function
 <span style="color:blue;">
-After logging in, the main function displays your login information and transaction history. Below this, it offers additional functionalities.</span>
+the main function displays user information and history.</span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/onlineBanking/mainFunction.png" title="mainFunction" class="img-fluid rounded z-depth-1" %}
@@ -66,7 +65,7 @@ using pattern match to implement the search function
 ### 3. Update transaction
 
 <span style="color:blue;">
-User could update multiple record by one click.
+User could update notes and delete record.
 </span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
