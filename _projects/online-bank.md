@@ -8,12 +8,12 @@ category: web app
 related_publications: false
 ---
 
-demo: [https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/](https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/)  
+demo: (https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/)  
 you could see test password on the site.  
 [github link](https://github.com/tzuhan2424/CPS3740_Project)
 
 ## Introduction
-The Online Banking System offers a secure and user-friendly web interface for managing your financial transactions. Key features include:
+The mimic system offers user-friendly web interface for managing database transactions. Key features include:
 <ui> 
     <li>Login: only authorized users can access their accounts.
     </li>
