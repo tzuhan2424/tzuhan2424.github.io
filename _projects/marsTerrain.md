@@ -3,7 +3,7 @@ layout: page
 title: Mars Terrain segmentation
 description: Mars Terrain Type Segmentation with Novel Edge Detection
 img: assets/img/Mars/mars-main.png
-importance: 3
+importance: 2
 category: deep learning
 related_publications: false
 ---
