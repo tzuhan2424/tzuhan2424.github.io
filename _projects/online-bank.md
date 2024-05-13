@@ -48,7 +48,7 @@ After logging in, the main function displays your login information and transact
 
 ### 2. Add transaction and Search
 <div style="color:blue;">
-You could use different html input tag to input the transaction
+User could use different html input tag to input the transaction
 </div>
 <div style="color:blue;">
 using pattern match to implement the search function
@@ -66,7 +66,7 @@ using pattern match to implement the search function
 ### 3. Update transaction
 
 <span style="color:blue;">
-You could update multiple transactions by one click.
+User could update multiple record by one click.
 </span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
