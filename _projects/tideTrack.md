@@ -8,7 +8,7 @@ category: web app
 related_publications: false
 ---
 ## Project Link:
-[https://gentle-tree-0c507cb0f.5.azurestaticapps.net/](https://gentle-tree-0c507cb0f.5.azurestaticapps.net/)
+demo: [https://gentle-tree-0c507cb0f.5.azurestaticapps.net/](https://gentle-tree-0c507cb0f.5.azurestaticapps.net/)
 
 [github link](https://github.com/tzuhan2424/kean-capstone)
 

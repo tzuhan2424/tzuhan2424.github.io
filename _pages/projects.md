@@ -5,8 +5,9 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: 
 horizontal: false
+# display_categories: [deep learning, web app]
+
 ---
 
 <!-- pages/projects.md -->
