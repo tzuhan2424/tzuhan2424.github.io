@@ -8,8 +8,8 @@ category: web app
 related_publications: false
 ---
 
-demo: (https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/)  
-[github link](https://github.com/tzuhan2424/CPS3740_Project)
+<!-- demo: (https://obi.kean.edu/~lintzuh@kean.edu/CPS3740/)  
+github link: (https://github.com/tzuhan2424/CPS3740_Project) -->
 
 ## Introduction
 The mimic system offers web interface for managing database transactions. Key features include:
