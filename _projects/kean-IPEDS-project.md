@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kean Data Collection System
-description: A system provides departent for collecting data
+description: A system provides deparment for collecting data
 img: assets/img/keanIPEDS/main-page.jpg
 importance: 1
 category: web app
